@@ -1,0 +1,20 @@
+name: Basic-Animals
+author: SpeedyG1481(YSO)
+version: 1.1
+load: STARTUP
+softdepend: [CoinsAPINB]
+depend: [ProtocolLib, Vault]
+main: com.speedyg.ras.BasicAnimals
+commands:
+  basicmobs:
+    description: Usage /ba.
+    aliases: [bmobs, mymobs, mmobs, mbm, bm, ba]
+  basicmobssell:
+    description: Usage /basell.
+    aliases: [bmobssell, mymobssell, mmobssell, mbmsell, bmsell, basell]
+  baticket:
+    description: Usage /baticket.
+    aliases: [ticket, bat]
+  bmadmin:
+    description: Usage /baadmin.
+    aliases: [badmin, bmyonet, baadmin]

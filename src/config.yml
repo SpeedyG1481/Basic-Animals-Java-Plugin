@@ -1,0 +1,388 @@
+#######################################################
+#                                                     #
+#                                                     #
+#           LOCALE FİLE AND GENERAL OPTİONS           #
+#                                                     #
+#                  Locales; TR,EN                     #
+#            Economy APIs; VAULT,COINSAPI             #
+#                                                     #
+#                                                     #
+#######################################################
+ECON-API: VAULT
+Locale: EN
+Options:
+  First-Spawn-Displayname: '&8[&bBM&8] &e%p&7''s &e%t'
+  First-Spawn-Health: 250
+  
+  
+  
+#######################################################
+#                                                     #
+#                                                     #
+#                  GENERAL BUTTONS                    #
+#                                                     #
+#          This buttons same of all menus.            #
+#                                                     #
+#                                                     #
+#######################################################
+
+
+
+
+  Close-Button:
+    Icon: '123daf8c965e5034c4bfc79d2d6ee8339f3a08a7e62bc56b7ab8eb2d7d070'
+    Name: '&cClose'
+    Lore: []
+  Prev-Page:
+    Icon: 'fc4ad1a56e26d8482da4cb0f0d87d83e54aba80a7f396093f4162b35f8787c11'
+    Name: '&c◄◄ Previous Page'
+    Lore: []
+  Next-Page:
+    Icon: 'c242888bd7cfc2d9801082c43b07c9dbbf1002271dc8c928e6d28dc17b27b210'
+    Name: '&aNext Page ►►'
+    Lore: []
+  Go-Back:
+    Icon: 'fc4ad1a56e26d8482da4cb0f0d87d83e54aba80a7f396093f4162b35f8787c11'
+    Name: '&c◄◄ Go Back'
+    Lore: []
+    
+    
+#######################################################
+#                                                     #
+#                                                     #
+#              ACCEPT MENU OPTIONS                    #
+#                                                     #
+#          Accept menu options is here!               #
+#                                                     #
+#                                                     #
+#######################################################
+
+
+
+
+  Accept-Menu:
+    Menu-Name: '&8&nAre you provide ?'
+    Reject:
+      Icon: '884e92487c6749995b79737b8a9eb4c43954797a6dd6cd9b4efce17cf475846'
+      Name: '&cReject'
+    Accept:
+      Icon: '1b67edb6ab2129a3b439dde98869e05af81c86d94815e37d31359bcd3ddf458d'
+      Name: '&aAccept'
+    Load-Item:
+      Name: '&7ID: &b<id>'
+      Lore:
+      - ''
+      - ' &8• &7Owner: &a<owner>'
+      - ' &8• &7Name: &b<name>'
+      - ' &8• &7Sell Price: &b<price>$'
+      - ' &8• &7First Adopt Date: &b<date>'
+      - ' &8• &7Current Speed: &b<speed> BPS'
+      - ' &8• &7Current Follow Range: &b<range>'
+      - ''
+      - ' &eDo you want to buy this mob'
+      - ' &ejust click accept button.'
+
+
+#######################################################
+#                                                     #
+#                                                     #
+#               BUY MENU OPTIONS                      #
+#                                                     #
+#           Buy menu options is here!                 #
+#                                                     #
+#                                                     #
+#######################################################
+
+
+  List-Buy-Menu:
+    Menu-Name: '&0Page <p>'
+    Load-Item:
+      Name: '&7ID: &b<id>'
+      Lore:
+      - ''
+      - ' &8• &7Owner: &a<owner>'
+      - ' &8• &7Name: &b<name>'
+      - ' &8• &7Sell Price: &b<price>$'
+      - ' &8• &7First Adopt Date: &b<date>'
+      - ' &8• &7Current Speed: &b<speed> BPS'
+      - ' &8• &7Current Follow Range: &b<range>'
+      - ''
+      - ' &eClickt to buy!'
+      - ''
+      
+      
+#######################################################
+#                                                     #
+#                                                     #
+#           LIST OWNED MOBS MENU OPTIONS              #
+#                                                     #
+# Displayname must be Unique. <id> is  unique element #
+#                                                     #
+#                                                     #
+#######################################################
+
+
+  Liste-Mobs-Menu:
+    Load-Item:
+      Name: '&7ID: &b<id>'
+      Lore:
+      - ''
+      - ' &8• &7Name: &b<name>'
+      - ' &8• &7Is selling: &b<is-Selling>'
+      - ' &8• &7Sell Price: &b<price>$'
+      - ' &8• &7First Adopt Date: &b<date>'
+      - ' &8• &7Speed: &b<speed> BPS'
+      - ' &8• &7Follow Range: &b<range>'
+      - ''
+      - ' &eRight click to sell,'
+      - ' &eleft click to hire mob.'
+      - ''
+      
+      
+#######################################################
+#                                                     #
+#                                                     #
+#             LIST OWNED MOBS MENU                    #
+#               CATEGORY OPTIONS                      #
+#                                                     #
+#                                                     #
+#######################################################
+
+
+
+  Buy-Category-Menu:
+    Name: '&8&nChoose Category...'
+    COW:
+      Icon: '5d6c6eda942f7f5f71c3161c7306f4aed307d82895f9d2b07ab4525718edc5'
+      Name: '&eCows Sold'
+      Lore:
+      - ''
+      - ' &8• &e<size>&7 mob in this category!'
+      - ''
+    SHEEP:
+      Icon: 'f31f9ccc6b3e32ecf13b8a11ac29cd33d18c95fc73db8a66c5d657ccb8be70'
+      Name: '&eSheeps Sold'
+      Lore:
+      - ''
+      - ' &8• &e<size>&7 mob in this category!'
+      - ''
+    CHICKEN:
+      Icon: '9be8128ab36c5d6c4563a8b4a4b5164c155f2f26027537b3dc23f22a3695449'
+      Name: '&eChickens Sold'
+      Lore:
+      - ''
+      - ' &8• &e<size>&7 mob in this category!'
+      - ''
+    LLAMA:
+      Icon: 'c2b1ecff77ffe3b503c30a548eb23a1a08fa26fd67cdff389855d74921368'
+      Name: '&eLlamas Sold'
+      Lore:
+      - ''
+      - ' &8• &e<size>&7 mob in this category!'
+      - ''
+    PIG:
+      Icon: '621668ef7cb79dd9c22ce3d1f3f4cb6e2559893b6df4a469514e667c16aa4'
+      Name: '&ePigs Sold'
+      Lore:
+      - ''
+      - ' &8• &e<size>&7 mob in this category!'
+      - ''
+    MOOSHROOM:
+      Icon: 'd0bc61b9757a7b83e03cd2507a2157913c2cf016e7c096a4d6cf1fe1b8db'
+      Name: '&eMooshroom Sold'
+      Lore:
+      - ''
+      - ' &8• &e<size>&7 mob in this category!'
+      - ''
+    PARROT:
+      Icon: '5593af7e12924987f2be3fa2142beed383671640285deeb8d21b72a496ddd9a4'
+      Name: '&eParrots Sold'
+      Lore:
+      - ''
+      - ' &8• &e<size>&7 mob in this category!'
+      - ''
+    RABBIT:
+      Icon: 'be50af50438affc65ce3b7a85b8e82cfbc3cab197c25d4a614230a2d1e0605d'
+      Name: '&eRabbits Sold'
+      Lore:
+      - ''
+      - ' &8• &e<size>&7 mob in this category!'
+      - ''
+    WOLF:
+      Menu-Name: '&8&nWolfs'
+      Icon: '48def410851fa12d903b5f4c99997ec262d61669112cdbae967a4fd2e7dc'
+      Name: '&eWolfs Sold'
+      Lore:
+      - ''
+      - ' &8• &e<size>&7 mob in this category!'
+      - ''
+    POLAR_BEAR:
+      Icon: 'd8cdd4f285632c25d762ece25f4193b966c2641b15d9bdbc0a113023de76ab'
+      Name: '&ePolar Bears Sold'
+      Lore:
+      - ''
+      - ' &8• &e<size>&7 mob in this category!'
+      - ''
+#######################################################
+#                                                     #
+#                                                     #
+#             LIST OWNED MOBS MENU                    #
+#               CATEGORY OPTIONS                      #
+#                                                     #
+#                                                     #
+#######################################################
+
+
+  Category-Menu:
+    Name: '&8&nChoose Category...'
+    COW:
+      Menu-Name: '&8&nCows'
+      Icon: '5d6c6eda942f7f5f71c3161c7306f4aed307d82895f9d2b07ab4525718edc5'
+      Name: '&eYour Cows'
+      Lore: []
+    SHEEP:
+      Menu-Name: '&8&nSheeps'
+      Icon: 'f31f9ccc6b3e32ecf13b8a11ac29cd33d18c95fc73db8a66c5d657ccb8be70'
+      Name: '&eYour Sheeps'
+      Lore: []
+    CHICKEN:
+      Menu-Name: '&8&nChickens'
+      Icon: '9be8128ab36c5d6c4563a8b4a4b5164c155f2f26027537b3dc23f22a3695449'
+      Name: '&eYour Chickens'
+      Lore: []
+    LLAMA:
+      Menu-Name: '&8&nLlamas'
+      Icon: 'c2b1ecff77ffe3b503c30a548eb23a1a08fa26fd67cdff389855d74921368'
+      Name: '&eYour Lamas'
+      Lore: []
+    PIG:
+      Menu-Name: '&8&nPigs'
+      Icon: '621668ef7cb79dd9c22ce3d1f3f4cb6e2559893b6df4a469514e667c16aa4'
+      Name: '&eYour Pigs'
+      Lore: []
+    MOOSHROOM:
+      Menu-Name: '&8&nMushrooms'
+      Icon: 'd0bc61b9757a7b83e03cd2507a2157913c2cf016e7c096a4d6cf1fe1b8db'
+      Name: '&eYour Mushrooms'
+      Lore: []
+    PARROT:
+      Menu-Name: '&8&nParrots'
+      Icon: '5593af7e12924987f2be3fa2142beed383671640285deeb8d21b72a496ddd9a4'
+      Name: '&eYour Parrots'
+      Lore: []
+    RABBIT:
+      Menu-Name: '&8&nRabbits'
+      Icon: 'be50af50438affc65ce3b7a85b8e82cfbc3cab197c25d4a614230a2d1e0605d'
+      Name: '&eYour Rabbits'
+      Lore: []
+    WOLF:
+      Menu-Name: '&8&nWolfs'
+      Icon: '48def410851fa12d903b5f4c99997ec262d61669112cdbae967a4fd2e7dc'
+      Name: '&eYour Wolfs'
+      Lore: []
+    POLAR_BEAR:
+      Icon: 'd8cdd4f285632c25d762ece25f4193b966c2641b15d9bdbc0a113023de76ab'
+      Name: '&eYour Polar Bears'
+      Lore: []
+      
+#######################################################
+#                                                     #
+#                                                     #
+#                 MOB OPTIONS MENU                    #
+#       Menu was opened, right click owned mob!       #
+#                                                     #
+#                                                     #
+#######################################################
+
+
+  Mob-Edit-Menu:
+    Name: '&8&nCustom Mob Menu'
+    Change-Speed:
+      Icon: 'dcd7d14c6db841e5864511d16ba7670b3d2038142466981feb05afc6e5edc6cb'
+      Name: '&bSpeed Regulator'
+      Lore: 
+      - ''
+      - ' &8• &7Current Speed; &b<speed> BPS'
+      - ''
+      - ' &eLeft click to downgrade 0.25 BPS,'
+      - ' &eright click to upgrade 0.25 BPS'
+      - ' &eshift to 1 BPS.'
+    Go-Home:
+      Icon: '9271809ba91b42fb4875af4ba298e5e55f45ed73721bcea85a45db92628574f'
+      Name: '&6Send Mob To Home'
+      Lore: []
+    Change-Name:
+      Icon: '25b3f2cfa0739c4e828316f39f90b05bc1f4ed27b1e35888511f558d4675'
+      Name: '&6Change Name'
+      Lore: 
+      - ''
+      - ' &8• &7Current Name; &b<name>'
+      - ''
+      - ' &eClick to change name.'
+    Change-Follow-Range:
+      Icon: 'fc994e142d79f56727254ae4449d2e3838033b09125bfbe743e46aa7a51729dd'
+      Name: '&5Change Follow Range'
+      Lore: 
+      - ''
+      - ' &8• &7Current Range; &b<range> Block'
+      - ''
+      - ' &eLeft click to downgrade 1&r&b block,'
+      - ' &eright click to upgrade 1&r&b block'
+      - ' &eshift to 10&r&b block.'
+    Change-Sell:
+      Icon: '47b69c9dfb61067c9484df7d03e63f17895c9cda3325c2c534a5c22358557631'
+      Name: '&eRevalue / Sell'
+      Lore: 
+      - ''
+      - ' &8• &7Selling Status; &e<is-Selling>'
+      - ' &8• &7Current Value; &e<value>$'
+      - ''
+      - ' &eRight click to revalue price,'
+      - ' &eleft click to change sell status.'
+    Change-Follow-Auto-Spawn-Mode:
+      Icon: '2161be2aec6cbc25ba2686a789aafbb7e47db1dcb0f4fb204010ebad09771bae'
+      Name: '&dChange Follow Mod'
+      Lore: 
+      - ''
+      - ' &8• &7Follow Mod; &e<fmode>'
+      - ''
+      - ' &eClick to change follow mod.'
+    Info-Button:
+      Icon: 'e87031c4726ddedd65b6a11d3147e6724defbb290da29cbb79da2490546cbf'
+      Name: '&aGeneral Status of <name>'
+      Lore: 
+      - ''
+      - ' &8• &7Sell status: &e<is-Selling>'
+      - ' &8• &7Price: &e<value>$'
+      - ' &8• &7Speed: &e<speed> BPS'
+      - ' &8• &7Owner: &e<owner>'
+      - ' &8• &7Follow range: &e<frange> Block'
+      - ' &8• &7Teleport range: &e<trange> Block'
+      - ' &8• &7Follow status: &e<is-FollowMode>'
+      - ''
+      
+      
+#######################################################
+#                                                     #
+#                                                     #
+#                 ITEM OPTIONS                        #
+#            Special ricket options.                  #
+#                                                     #
+#                                                     #
+#######################################################
+
+
+Items:
+  Paper:
+    Material: PAPER
+    Data: 0
+    Displayname: '&eTicket'
+    Lore:
+    - ' '
+    - '&7Do you want to owner a mob,'
+    - '&7click anyone and see this!'
+    - ' '
+    - '&7It only works on these;'
+    - '&eCow, Sheep, Lama, Pig,'
+    - '&eRabbit, Parrot, Mushroom Cow'
+    - '&eChicken, Wolf'
