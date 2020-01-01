@@ -1,2 +1,2 @@
-# Basic-Animals---Java-Plugin
+# Basic Animals
 Enjoy minecraft plugin! Ride and customize animals!
